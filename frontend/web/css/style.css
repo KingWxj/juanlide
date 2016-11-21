@@ -1,0 +1,223 @@
+			*{
+				font-family: "微软雅黑";
+				-moz-user-select: none; /*火狐*/
+					-webkit-user-select: none; /*webkit浏览器*/
+					-ms-user-select: none; /*IE10*/
+					-khtml-user-select: none; /*早期浏览器*/
+					user-select: none;
+			}
+			h1{
+					text-align: center;
+					margin-bottom: 3rem;
+			}
+			
+			h3{
+				text-align: center;
+			}
+			#page-head{
+				margin-top: 10em;
+			}
+			#test{
+				margin-bottom: 5rem;
+			}
+			#jum{
+				height: 43rem;
+				background: url(../img/main.png) no-repeat #fff;
+				background-size: cover;
+    			background-position: center center;
+			}
+			#class2{
+				display: none;
+			}
+			#class3{
+				display: none;
+			}
+			#class4{
+				display: none;
+			}
+			#grade2{
+				display: none;
+			}
+			#grade3{
+				display: none;
+			}
+			#grade4{
+				display: none;
+			}
+			div[id^="grade"]{
+				margin-top: 5em;
+			}
+			#project{
+				width: 60%;
+				margin: auto;
+				background: rgb(250,250,250);
+				margin-top: 10rem;
+			}
+			#project ul{
+				list-style: none;
+				height: 4rem;
+				width:100%;
+			}
+			#project li{
+				float: left;
+				width: 20%;
+			}
+			#project li>a{
+				display: block;
+				height: 4rem;
+				line-height: 5rem;
+				text-align: center;
+			}
+			#class{
+				width: 60%;
+				height: 4rem;
+				margin: auto;
+			}
+			#class h2{
+				margin: auto;
+				width: 7em;
+			}
+			#class h2 img{
+				width: 15%;
+				height: auto;
+			}
+			.label{
+				display: none;
+				color: red;
+			}
+			.glyphicon-remove{
+				display: none;
+			}
+			#form1{
+				height: 13rem;
+			}
+			.inputs{
+				padding: 10px 32px;
+				font-size: 20px;
+			}
+			.more{
+				margin-top: 10rem;
+				border-radius: 3em;
+			}
+			.navbar-brand{
+				font-size: 20px;
+				font-weight: bold;
+			}
+			
+			@media only screen and (max-width: 768px) {
+				.inputs{
+					padding: 5px 16px;
+				font-size: 10px;
+				}
+			}
+			@media only screen and (max-width: 500px) {
+				.inputs{
+					padding:6px 18px;
+				font-size: 15px;
+				}
+				#spirit{
+					display: none;
+				}
+				#project{
+					width: 80%;
+				}
+				#project ul{
+					padding: 0;
+				}
+				#class h2{
+					font-size:1.5em;
+				}
+			}
+			
+			/*年级板块*/
+			.main-grade a{
+				display: block;
+				margin: auto;
+				margin-bottom: 3em;
+			}
+			.main-grade a img{
+				width: 100%;
+				height: auto;	
+			}
+			@media only screen and (max-width: 767px) {
+				.main-grade a{
+				margin-bottom: 1em;
+			}
+			}
+			
+			/*底部导航栏*/
+			footer{
+				background: black;
+				width: 100%;
+				 height: 30rem;
+			}
+			
+			footer ul{
+				list-style: none;
+			}
+			footer li>a,h4,h5{
+				color: white;
+			}
+			.contact{
+				margin: 0.5em;
+				display: block;
+			}
+			#footer{
+				display: none;
+			}
+			@media only screen and (max-width: 990px ) {
+				footer{
+					display: none;
+				}
+				#footer{
+					display: block;
+					color: #FFF;
+				    padding: 18px 0 13px;
+				    background: black;
+				    font-size: 12px;
+				    width: 100%;
+				    margin-top: 30px;
+				}
+				.footer-link {
+				    padding: 0;
+				    margin: 0;
+				    display: table;
+				    line-height: 1;
+				    width: 100%;
+				}
+				#footer li{
+					list-style: none;
+					float: left;
+				    margin-right: 7px;
+				    display: inline-block;
+				    color: white;
+				}
+				#footer p {
+				    margin: 7px 0 0;
+				    color: #99a2aa;
+				}
+			}
+			
+			/*步骤css*/
+			.main-step-img{
+				width: 80%;
+				margin: 0 auto;
+				margin-bottom: 1em;
+			}
+			.main-step-img img{
+				width: 100%;
+			}
+			@media only screen and (max-width: 767px) {
+				.main-step-img{
+				width: 40%;
+				margin: 0 auto;
+				margin-bottom: 1em;
+			}
+				.main-step-img + h3{
+					font-size: 48px;
+				}
+				.main-step-img + p{
+					font-size: 20px;
+				}
+				
+			}

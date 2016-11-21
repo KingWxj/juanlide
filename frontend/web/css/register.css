@@ -1,0 +1,16 @@
+.must-input {
+	color: red;
+}
+
+.must-input-label {
+	color: red;
+	display: none;
+}
+
+.form-control-feedback {
+	display: none;
+}
+#form-main{
+	margin-top: 50px;
+	margin-bottom: 200px;
+}

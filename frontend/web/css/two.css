@@ -1,0 +1,161 @@
+			body{
+				background: rgb(250,250,250);
+			}
+			footer{
+				background: black;
+				width: 100%;
+				 height: 25rem;
+			}
+			footer ul{
+				list-style: none;
+			}
+			footer li>a,h4,h5{
+				color: white;
+			}
+			.contact{
+				margin: 0.5em;
+				display: block;
+			}
+			#footer{
+				display: none;
+			}
+			.btn-input{
+				margin: 8px;
+			}
+			#container{
+				margin-top: 5em;
+				margin-bottom: 15em;
+				background: white;
+				padding: 0;
+			}
+			#png-background{
+				background: url(../img/bghead.png) no-repeat;
+				background-size: cover;
+    			background-position: center center;
+				height: 10em;
+			}
+			#png-head{
+				padding: 2em;
+				color: white;
+				font-size: 2em;
+			}
+			.projects{
+				height: 3em;
+				width: 10%;
+				font-family: "微软雅黑";
+				float: left;
+				margin-left: 1em;
+				margin-bottom: 1em;
+				text-align: center;
+				line-height: 3em;
+				font-size: 3em;
+				font-weight: bolder;
+				background: url(../img/rectangle.png) no-repeat;
+				background-size: 100% 100%;
+    			background-position: center center;
+			}
+			.project-background{
+				height: 3em;
+				width: 10%;
+				font-family: "微软雅黑";
+				float: left;
+				margin-left: 1em;
+				margin-bottom: 1em;
+				text-align: center;
+				line-height: 3em;
+				font-size: 3em;
+				font-weight: bolder;
+				background: url(../img/choose.png) no-repeat;
+				background-size: 100% 100%;
+    			background-position: center center;
+			}
+			#project-left{
+				height: 3em;
+				width: 10%;
+				float: left;
+				text-align: center;
+				line-height: 3em;
+				font-size: 3em;
+				margin-left: 1em;
+				margin-bottom: 1em;
+			}
+			#project-right{
+				height: 3em;
+				width: 10%;
+				float: left;
+				text-align: center;
+				line-height: 3em;
+				font-size: 3em;
+				margin-left: 1em;
+				margin-bottom: 1em;
+			}
+			.tonext{
+				width: 100%;
+				font-size: 30px;
+			}
+			.tonexts{
+				width: 35%;
+				margin: auto;
+			}
+			#makea{
+				background: url(../img/make.png) no-repeat;
+				background-size: 100% 100%;
+    			background-position: center center;
+				width: 17%;
+				height: 3em;
+			}
+			.pull-right #morestep{
+				line-height: 41px;
+			}
+			.steps{
+				margin-left: 10%;
+				margin-right: 10%;
+			}
+			#steps-img{
+				border: 3px black solid;
+			}
+			#steps-img img{
+				width: 100%;
+				height: auto;
+			}
+			@media only screen and (max-width: 990px ) {
+				#makea{
+					width: 30%;
+				}
+				footer{
+					display: none;
+				}
+				#footer{
+					display: block;
+					color: #FFF;
+				    padding: 18px 0 13px;
+				    background: black;
+				    font-size: 12px;
+				    width: 100%;
+				    margin-top: 30px;
+				}
+				.footer-link {
+				    padding: 0;
+				    margin: 0;
+				    display: table;
+				    line-height: 1;
+				    width: 100%;
+				}
+				#footer li{
+					list-style: none;
+					float: left;
+				    margin-right: 7px;
+				    display: inline-block;
+				    color: white;
+				}
+				#footer p {
+				    margin: 7px 0 0;
+				    color: #99a2aa;
+				}
+				.projects{
+					margin-left: 0.2em;
+				}
+				#project-right{
+					margin-left: 0.3em;
+				}
+			}

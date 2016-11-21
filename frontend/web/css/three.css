@@ -1,0 +1,192 @@
+body {
+	background: rgb(250, 250, 250);
+}
+
+#main_footer{
+	display: none;
+}
+
+.navbar-default {
+	/*background: green;*/
+	
+}
+
+.main-content-head-ico {
+	width: 30%;
+	height: 4.1em;
+}
+
+/*.navbar-brand span {*/
+	/*font-size: 30px;*/
+	/*color: rgb(246, 252, 246);*/
+/*}*/
+
+.navbar-brand #ico-one {
+	color: greenyellow;
+	font-size: 40px;
+}
+
+.user-head {
+	width: 3em;
+	height: 3em;
+	border-radius: 100%;
+}
+
+.user-name {
+	color: white;
+}
+
+#now-project-body {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#now-project-label {
+	font-family: "微软雅黑";
+	color: rgb(53, 82, 54);
+	font-size: 2em;
+}
+
+#now-project {
+	border-radius: 4px;
+	height: 2em;
+	margin-top: 1%;
+}
+
+#look-testpaper {
+	margin-top: 1%;
+}
+
+#buliding-content {
+	-webkit-box-shadow: 0 0 5px 6px rgba(181, 181, 181, 0.3);
+	-moz-box-shadow: 0 0 5px 6px rgba(181, 181, 181, 0.3);
+	box-shadow: 0 0 5px 6px rgba(181, 181, 181, 0.3);
+	background: white;
+}
+
+.content-head {
+	background: rgb(172, 172, 172);
+	border-right: 1px white solid;
+	height: 4.1em;
+	
+}
+
+.main-content-head {
+	width: 90%;
+	margin: auto;
+}
+
+.make-parper-step {
+	border-bottom: 1px gray solid;
+	/*height: 5em;*/
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.make-parper-step .col-md-3, .col-md-8 {
+	/*margin-top: 0.5em;*/
+	font-weight: bold;
+}
+
+#buliding-content-main {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 3em;
+}
+
+footer {
+	background: rgb(199, 202, 199);
+}
+
+#copyright {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.col-xs-6 span {
+	color: rgb(49, 96, 49);
+	font-size: 3em;
+}
+
+#footer-title {
+	font-size: 4em;
+}
+
+#footer-sao h5, h4 {
+	text-align: right;
+	font-weight: bold;
+	
+}
+
+#footer-sao h5 {
+	margin-top: 44%;
+}
+
+#footer-sao h4 {
+	color: rgb(237, 149, 55);
+}
+
+.main-content-head-active {
+	height: 5em;
+	background: url(../img/back.png);
+	background-size: 100% 100%;
+}
+
+#QR-code {
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 769px) {
+	#now-project-label {
+		font-size: 1.8em;
+	}
+	
+	.col-xs-6 span {
+		font-size: 1.8em;
+	}
+	
+	#footer-title {
+		font-size: 2.6em;
+	}
+	
+}
+
+@media only screen and (max-width: 700px) {
+	#now-project-label {
+		font-size: 0.7em;
+	}
+	
+	.col-xs-6 span {
+		font-size: 0.9em;
+	}
+	
+	#footer-title {
+		font-size: 1.3 m;
+	}
+	
+	.main-content-head span {
+		font-size: 0.6em;
+	}
+	
+	.main-content-head-mintitle {
+		display: none;
+	}
+	
+	#look-testpaper {
+		font-size: 0.6em;
+	}
+	
+	#footer-sao h4 {
+		font-size: 0.8em;
+	}
+	
+	#footer-sao h5 {
+		font-size: 0.6em;
+	}
+	
+	.make-parper-step .col-md-3, .col-md-8 {
+		margin-top: 0;
+	}
+}
